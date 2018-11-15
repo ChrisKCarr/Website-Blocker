@@ -4,7 +4,7 @@ from datetime import datetime as dt
 hosts_temp="hosts" 
 hosts_path=r"C:\Windows\System32\drivers\etc\hosts" #This should be the path to your hosts file on your OS. 
 redirect="127.0.0.1"
-website_list=["ENTER IN WEBSITE HERE"]
+website_list=["ENTER IN WEBSITE HERE"] 
 
 while True:
     if dt(dt.now().year,dt.now().month,dt.now().day,6) < dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,22):
